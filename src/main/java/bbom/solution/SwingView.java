@@ -8,6 +8,8 @@ public class SwingView extends JFrame implements ActionListener, ModelListener {
 
     private final Model model;
     private final Controller controller;
+
+    // I've added a label to prove that the model is updating
     private final JLabel label;
 
     public SwingView(Model model, Controller controller) {
